@@ -5,5 +5,22 @@
     "parking": {
         "addButtonText": "Parkolóba rakom",
         "removeButtonText": "Kiveszem a parkolóból"
+    },
+    "contact": {
+        "emailRevealText": "E-mail cím felfedése",
+        "phoneRevealText": "Elsődleges telefonszám felfedése",
+        "expectedEmail": "baumgartner.zsolt@petranyiauto.hu",
+        "expectedPhone": "(+36) 30/4564461"
+    },
+    "financing": {
+        "price": "10510000",
+        "year": "2024",
+        "month": "6",
+        "vehicleType": "1",
+        "vehicle": "FORD PUMA 1.0 EcoBoost mHEV Titanium DCT",
+        "brand": "FORD",
+        "model": "PUMA",
+        "power": "92",
+        "fuel": "Benzin"
     }
 }
