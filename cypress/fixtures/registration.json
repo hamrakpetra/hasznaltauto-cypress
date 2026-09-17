@@ -1,0 +1,22 @@
+{
+  "validUser": {
+    "name": "Teszt Petra",
+    "postalCode": "1111",
+    "password": "Password123!"
+  },
+
+  "validation": {
+    "name": {
+      "invalidValue": "fd",
+      "expectedError": "A névnek minimum 3 karakternek kell lennie."
+    },
+    "email": {
+      "invalidValue": "df",
+      "expectedError": "Nem megfelelő e-mail cím."
+    },
+    "confirmPassword": {
+      "invalidValue": "DifferentPassword123!",
+      "expectedError": "A jelszavak nem egyeznek."
+    }
+  }
+}
