@@ -18,5 +18,9 @@
       "invalidValue": "DifferentPassword123!",
       "expectedError": "A jelszavak nem egyeznek."
     }
+  },
+
+  "success": {
+    "expectedMessage": "Sikeres regisztráció!"
   }
 }
