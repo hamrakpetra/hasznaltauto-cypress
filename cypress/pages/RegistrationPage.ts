@@ -67,7 +67,7 @@ class RegistrationPage {
     }
 
     getSuccessMessage() {
-        return cy.get("h3");
+        return cy.contains("h3", "Sikeres regisztráció!");
     }
 }
 

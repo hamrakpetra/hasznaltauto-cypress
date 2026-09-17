@@ -12,11 +12,15 @@ class AdvertisementPage {
     }
 
     getEmailRevealButton() {
-        return cy.get('[data-testid="seller-email"]').first();
+        return cy.get(
+            '[data-testid="seller-email"][data-contact-event*="map"]'
+        );
     }
 
     getPhoneRevealButton() {
-        return cy.get('[data-testid="seller-phone-number-primary"]').first();
+        return cy.get(
+            '[data-testid="seller-phone-number-primary"][data-contact-event*="map"]'
+        );
     }
 
     revealEmail() {
